@@ -1,13 +1,13 @@
 
 
 header{
-    height: 90px;
+    // height: 90px;
     @include flex(a);
     
     .container{
         @include flex(ja);
         width: 860px;
-        height: 90px;
+        // height: 90px;
         margin: 0 auto;
         .logo{
             width: 70px;

@@ -9,8 +9,14 @@
 </head>
 <body>
     <div class="container-princ">
-        
+        <div class="mini-section">
+          <div class="init">
+            <div class="primo-init">DC POWER VISA</div>
+            <div class="secondo-init">ADDITIONAL DC SITES</div>
+          </div>
+        </div>
        @include('partials.header')
+       @include('partials.menu')
 
        @yield('content')
 

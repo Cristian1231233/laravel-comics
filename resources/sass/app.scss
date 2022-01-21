@@ -4,3 +4,24 @@
 @import'partials/mixin';
 @import'partials/header';
 @import'partials/footer';
+@import'partials/menu';
+
+.mini-section{
+    background-color: blue;
+    .init{
+        color: white;
+        width: 860px;
+        height: 30px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 0 auto;
+
+        .primo-init{
+            margin-right: 20px;
+        }
+        .primo-init, .secondo-init{
+            font-size: 10px;
+        }
+    }
+}

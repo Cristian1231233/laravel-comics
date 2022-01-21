@@ -1,0 +1,34 @@
+.white{
+    min-height: 400px;
+    .jumbotron{
+        height: 340px;
+        background-image: url('/images/jumbotron.jpg');
+    }
+    .celeste{
+        height: 60px;
+        background-color: #0282F9;
+    }
+    .action-comics{
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        height: 300px;
+        border: 1px solid;
+        margin: 0 auto;
+        padding-top: 40px;
+
+        .text{
+            width: 65%;
+            border: 1px solid;
+            h2{
+                font-size: 18px;
+                color: #044A65;
+            }
+        }
+        .image{
+            width: 30%;
+            border: 1px solid;
+        }
+    }
+
+}
