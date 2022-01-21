@@ -1,0 +1,83 @@
+.footer-top{
+        
+    background-image: url('assets/images/footer-bg.jpg');
+    overflow: hidden;
+}
+.footer-button{
+    height: 90px;
+    background-color: #303030;
+}
+
+
+.container{
+width: 860px;
+margin: 0 auto;
+display: flex;
+padding-bottom: 30px;
+
+.logo-big{
+    
+    height: 300px;
+    margin-left: 260px;
+    img{
+        height: 125%;
+    }
+}
+
+.informative{
+    margin-top: 30px;
+    margin-right: 40px;
+
+    ul li{
+        list-style: none;
+        font-size: 12px;
+
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+    }
+    h2{
+        color: white;
+        font-size: 15px;
+        
+        margin-bottom: 10px;
+    }
+    .shop{
+        margin-top: 10px;
+    }
+}
+}
+.container2{
+width: 860px;
+height: 90px;
+margin: 0 auto;
+@include flex(a);
+}
+
+.button-social{
+width: 100%;
+height: 60px;
+@include flex(ja);
+button{
+    color: white;
+    border: 2px solid $colore-blu;
+    background-color: #303030;
+    padding: 10px;
+}
+.socials{
+    @include flex(a);
+    .titolo-social{
+        font-size: 17px;
+        color: #0886FF;
+    }
+    .social{
+        height: 30px;
+        margin-left: 10px;
+        
+        img{
+            height: 100%;
+        }
+    }
+}
+}
