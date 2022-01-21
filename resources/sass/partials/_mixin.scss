@@ -1,0 +1,12 @@
+@mixin flex($type: 'ja'){
+    display: flex;
+    @if $type == 'j'{
+        justify-content: space-between;
+} @else if $type == 'a'{
+        align-items: center;
+} @else if $type == 'ja'{
+    justify-content: space-between;
+    align-items: center;
+} 
+
+}
