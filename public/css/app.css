@@ -179,11 +179,54 @@ header nav ul li a:hover {
 .white .action-comics .text h2 {
   font-size: 18px;
   color: #044A65;
+  padding: 15px 0;
+}
+
+.white .action-comics .text .green {
+  height: 30px;
+  background-color: #62c062;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+.white .action-comics .text .green .one-green {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.white .action-comics .text .green .one-green div {
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+.white .action-comics .text .green .two-green {
+  width: 40%;
+  text-align: center;
+  border-left: 1px solid gray;
+}
+
+.white .action-comics .text p {
+  color: gray;
+  margin-top: 15px;
 }
 
 .white .action-comics .image {
   width: 30%;
   border: 1px solid;
+}
+
+.white .action-comics .image .title {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 6px;
+}
+
+.white .action-comics .image img {
+  width: 100%;
 }
 
 .mini-section {

@@ -23,11 +23,48 @@
             h2{
                 font-size: 18px;
                 color: #044A65;
+                padding: 15px 0;
+            }
+            .green{
+                height: 30px;
+                background-color: rgb(98, 192, 98);
+                border-bottom: 1px solid gray;
+                display: flex;
+                align-items: center;
+                .one-green{
+                    width: 60%;
+                    display: flex;
+                    justify-content: space-between;
+                    div{
+                        font-size: 13px;
+                        padding: 0 15px;
+                    }
+                }
+                .two-green{
+                    width: 40%;
+                    text-align: center;
+                    border-left: 1px solid gray;
+                }
+                
+            }
+            p{
+                color: gray;
+                margin-top: 15px;
             }
         }
         .image{
             width: 30%;
             border: 1px solid;
+            .title{
+                width: 100%;
+                font-size: 12px;
+                display: flex;
+                justify-content: end;
+                margin-bottom: 6px;
+            }
+            img{
+                width: 100%;
+            }
         }
     }
 
