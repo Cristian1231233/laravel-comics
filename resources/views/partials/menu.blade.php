@@ -25,3 +25,35 @@
     </div>
 
 </section>
+<section class="menu-bottom">
+
+    <div class="container-menu">
+        <div class="left">
+            <div class="titolo"><strong>TALENT</strong></div>
+            <div class="riga2">
+                <div class="Art">Art by:</div>
+                <p class="testo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia deleniti illum hic id quidem ex.</p>
+            </div>
+            <div class="riga2">
+                <div class="Art">Written by:</div>
+                <p class="testo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia deleniti illum hic id quidem ex.</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="titolo"><strong>Specs</strong></div>
+            <div class="riga2-right">
+                <div class="Art-right">Series:</div>
+                <p class="testo-right1">ACTION COMICS</p>
+            </div>
+            <div class="riga2-right">
+                <div class="Art-right">U.S. Price:</div>
+                <p class="testo-right">$19.99</p>
+            </div>
+            <div class="riga2-right">
+                <div class="Art-right">On Sale Date:</div>
+                <p class="testo-right">Oct 02 2018</p>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -165,7 +165,6 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   width: 700px;
-  height: 300px;
   border: 1px solid;
   margin: 0 auto;
   padding-top: 40px;
@@ -227,6 +226,76 @@ header nav ul li a:hover {
 
 .white .action-comics .image img {
   width: 100%;
+}
+
+.menu-bottom {
+  height: 300px;
+  background-color: #f7f3f3;
+  margin-top: 30px;
+}
+
+.container-menu {
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-menu .left,
+.container-menu .right {
+  width: 47%;
+  height: 100%;
+}
+
+.container-menu .titolo {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dfd9d9;
+}
+
+.container-menu .riga2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfd9d9;
+}
+
+.container-menu .riga2 .Art,
+.container-menu .riga2 .testo {
+  padding: 8px 0;
+}
+
+.container-menu .riga2 .Art {
+  width: 400px;
+  font-size: 13px;
+}
+
+.container-menu .riga2 .testo {
+  font-size: 13px;
+  color: #61D5ED;
+}
+
+.container-menu .riga2-right {
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfd9d9;
+}
+
+.container-menu .riga2-right .Art-right,
+.container-menu .riga2-right .testo-right,
+.container-menu .riga2-right .testo-right1 {
+  font-size: 13px;
+}
+
+.container-menu .riga2-right .testo-right1 {
+  width: 200px;
+  color: #61D5ED;
+}
+
+.container-menu .riga2-right .testo-right {
+  width: 200px;
 }
 
 .mini-section {
