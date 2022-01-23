@@ -73,23 +73,23 @@
                      <div class="social">
                          
                          
-                        <img src="{{asset('img/footer-facebook.png')}}"
+                        <img src="{{asset('images/footer-facebook.png')}}"
                         alt="">
                      </div>
                      <div class="social">
-                        <img src="{{asset('img/footer-twitter.png')}}"
+                        <img src="{{asset('images/footer-twitter.png')}}"
                         alt="">
                      </div>
                      <div class="social">
-                        <img src="{{asset('img/footer-youtube.png')}}"
+                        <img src="{{asset('images/footer-youtube.png')}}"
                         alt="">
                      </div>
                      <div class="social">
-                        <img src="{{asset('img/footer-pinterest.png')}}"
+                        <img src="{{asset('images/footer-pinterest.png')}}"
                         alt="">
                      </div>
                      <div class="social">
-                        <img src="{{asset('img/footer-periscope.png')}}"
+                        <img src="{{asset('images/footer-periscope.png')}}"
                         alt="">
                      </div>
                   </div>
